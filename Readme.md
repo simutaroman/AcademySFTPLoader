@@ -6,6 +6,8 @@ Performs "fast and furious" uploading files and directories to bpm'online (Terra
 
 Created by Roman Simuta for Terrasoft Academy team. Inspired by AcademyLoader by V. Nikonov.
 
+THis project uses SSH.NET library as dependency. See https://github.com/sshnet/SSH.NET.
+
 Feel free to contact me by email: simutaroman@gmail.com.
 
 ---------------
