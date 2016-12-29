@@ -4,7 +4,7 @@ About
 
 Performs "fast and furious" uploading files and directories to bpm'online (Terrasoft) Academy FTP server (https://academy.bpmonline.com) through SFTP.
 
-Created by Roman Simuta for Terrasoft Academy team. Inspired by AcademyLoader by V.Nikonov.
+Created by Roman Simuta for Terrasoft Academy team. Inspired by AcademyLoader by V. Nikonov.
 
 Feel free to contact me by email: simutaroman@gmail.com.
 
@@ -33,13 +33,13 @@ Example:
     * download: files from remote path directory will be downloaded to local path directory.(TODO)*
   5. -localpath: Local path directory.
   6. -remotepath: Remote path directory. Will be created if not exists.
-    * If remote path should contain space, use %20 sequence. i.e. - remotepath some%20path/with/spaces
+    * If remote path should contain space, use %20 sequence. i.e. -remotepath some%20path/with/spaces
   7. -ppkpath: Path to SSH key file. See Terrasoft.Academy.SFTPLoader.Core/ThirdParty/How to convert ppk file.docx
 
 Example:
   Terrasoft.Academy.SFTPConsole.exe -ftp somesite.com -port 3333 -username ftpuser -ftpoperation upload -localpath C:\test\ -remotepath docs/test -ppkpath C:\key\key.ppk
 
-* Features marked as (TODO) are not realised yet.
+* Features marked as (TODO) are not finished yet.
 
 
 ---------------
