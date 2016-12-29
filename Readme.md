@@ -23,28 +23,31 @@ Available combinations of parameters:
 	Terrasoft.Academy.SFTPConsole.exe -help
 
 2. Seven parameters and their values supplied.
-*-ftp
+
+2.1. -ftp
 	FTP site name.
-*-port
+2.2. -port
 	SFTP port allowed for connection.
-*-username
+2.3. -username
 	Valid FTP user name.
-*-ftpoperation
+2.4. -ftpoperation
 	Operation to do with files and directories. Available values:
 	upload : files from local path directory will be uploaded to remote path directory.
 	clean : empties remote path directory. (TODO)*
 	download: files from remote path directory will be downloaded to local path directory.(TODO)*
-*-localpath
+2.5. -localpath
 	Local path directory.
-*-remotepath
+2.6. -remotepath
 	Remote path directory. Will be created if not exists.
-*-ppkpath
+2.7.-ppkpath
 	Path to SSH key file. See Terrasoft.Academy.SFTPLoader.Core/ThirdParty/How to convert ppk file.docx
+
+Example:
+	Terrasoft.Academy.SFTPConsole.exe -ftp somesite.com -port 3333 -username ftpuser -ftpoperation upload -localpath C:\test\ -remotepath docs/test -ppkpath C:\key\key.ppk
+
 
 * Features marked as (TODO) are not realised yet.
 
-*Example:
-	Terrasoft.Academy.SFTPConsole.exe -ftp somesite.com -port 3333 -username ftpuser -ftpoperation upload -localpath C:\test\ -remotepath docs/test -ppkpath C:\key\key.ppk
 
 ---------------
 Where to find
