@@ -19,27 +19,34 @@ Available combinations of parameters:
 1. One parameter supplied.
 
 1.1. -help (TODO)* Obvious parameter. Lists available parameters.
-  Example:
+
+Example:
 	Terrasoft.Academy.SFTPConsole.exe -help
 
 2. Seven parameters and their values supplied.
 
 2.1. -ftp
 	FTP site name.
+
 2.2. -port
 	SFTP port allowed for connection.
+
 2.3. -username
 	Valid FTP user name.
+
 2.4. -ftpoperation
 	Operation to do with files and directories. Available values:
 	upload : files from local path directory will be uploaded to remote path directory.
 	clean : empties remote path directory. (TODO)*
 	download: files from remote path directory will be downloaded to local path directory.(TODO)*
+
 2.5. -localpath
 	Local path directory.
+
 2.6. -remotepath
 	Remote path directory. Will be created if not exists.
-2.7.-ppkpath
+
+2.7. -ppkpath
 	Path to SSH key file. See Terrasoft.Academy.SFTPLoader.Core/ThirdParty/How to convert ppk file.docx
 
 Example:
@@ -52,6 +59,6 @@ Example:
 ---------------
 Where to find
 ---------------
-Last changes may be found here:
+Last changes may be found here: https://github.com/simutaroman/AcademySFTPLoader
 
 
