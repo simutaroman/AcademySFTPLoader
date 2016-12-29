@@ -4,6 +4,7 @@
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
-    <StartArguments>-ftp bpmonline.com -port 7799 -username academyftp -ftpoperation upload -localpath \\tscore-web-01\LMS\sales_enterpriseRus\7.9.0\Web\ -remotepath docs/product/test/bpm%27online%2520sales/enterprise/7.9.0 -ppkpath C:\Projects\AcademySFTPLoader\key\key.ppk</StartArguments>
+    <StartArguments>
+    </StartArguments>
   </PropertyGroup>
 </Project>
