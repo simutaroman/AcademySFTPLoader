@@ -17,16 +17,16 @@ Use application params for different pathes.
 Available combinations of parameters:
 
 1. One parameter supplied.
-	1.1. -help (TODO)* Obvious parameter. Lists available parameters.
-		* Example: Terrasoft.Academy.SFTPConsole.exe -help
+  1.1. -help (TODO)* Obvious parameter. Lists available parameters.
+    * Example: Terrasoft.Academy.SFTPConsole.exe -help
 
 2. Seven parameters and their values supplied.
-	2.1. -ftp
-		* FTP site name.
-	2.2. -port
-		* SFTP port allowed for connection.
-	2.3. -username
-		* Valid FTP user name.
+  2.1. -ftp
+    * FTP site name.
+  2.2. -port
+    * SFTP port allowed for connection.
+  2.3. -username
+    * Valid FTP user name.
 
 2.4. -ftpoperation
 	Operation to do with files and directories. Available values:
