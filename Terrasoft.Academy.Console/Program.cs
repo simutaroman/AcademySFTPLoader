@@ -80,9 +80,9 @@ namespace Terrasoft.Academy.SFTPConsole
 
             // TODO: perform help processing here!
 
-            if (config.RemotePath.Contains("%20"))
+            if (config.RemotePath.Contains("___"))
             {
-                config.RemotePath = config.RemotePath.Replace("%20", " ");
+                config.RemotePath = config.RemotePath.Replace("___", " ");
             }
             //config.WriteToConsole();// doesn't work in teamcity
             Console.ForegroundColor = ConsoleColor.DarkGray;

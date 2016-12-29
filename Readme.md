@@ -33,7 +33,7 @@ Available combinations of parameters:
     * download: files from remote path directory will be downloaded to local path directory.(TODO)*
   5. -localpath: Local path directory.
   6. -remotepath: Remote path directory. Will be created if not exists.
-    * If remote path should contain space, use %20 sequence. i.e. -remotepath some%20path/with/spaces
+    * If remote path should contain space, use ___ (3 underscores) sequence. i.e. -remotepath some___path___with/spaces
   7. -ppkpath: Path to SSH key file. See Terrasoft.Academy.SFTPLoader.Core/ThirdParty/How to convert ppk file.docx
 
   Example: Terrasoft.Academy.SFTPConsole.exe -ftp somesite.com -port 3333 -username ftpuser -ftpoperation upload -localpath C:\test\ -remotepath docs/test -ppkpath C:\key\key.ppk
