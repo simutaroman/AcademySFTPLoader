@@ -17,7 +17,8 @@ Use application params for different pathes.
 Available combinations of parameters:
 
 1. One parameter supplied.
-1.1 -help (TODO)* Obvious parameter. Lists available parameters.
+
+1.1. -help (TODO)* Obvious parameter. Lists available parameters.
   Example:
 	Terrasoft.Academy.SFTPConsole.exe -help
 
