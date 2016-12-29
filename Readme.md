@@ -3,7 +3,7 @@ About
 ---------------
 
 Performs "fast and furious" uploading files and directories to bpm'online (Terrasoft) Academy FTP server (https://academy.bpmonline.com) through SFTP.
-Inspired by AcademyLoader by V.Nikonov
+Inspired by AcademyLoader by V.Nikonov.
 Created by Roman Simuta for Terrasoft Academy team.
 Feel free to contact me by email: simutaroman@gmail.com.
 
@@ -17,8 +17,8 @@ Use application params for different pathes.
 Available combinations of parameters:
 
 1. One parameter supplied.
-* -help (TODO)* Obvious parameter. Lists available parameters.\n
-Example:
+1.1 -help (TODO)* Obvious parameter. Lists available parameters.
+  Example:
 	Terrasoft.Academy.SFTPConsole.exe -help
 
 2. Seven parameters and their values supplied.
