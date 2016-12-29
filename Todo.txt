@@ -1,0 +1,25 @@
+Minimum Marketing Feature (MMF)
++ Core class library which implemetns functionality to transfer files by SFTP
+* Console application which is able to upload/download files from/to local directory to/from remote FTP directory by SFTP. Should use various arguments.
+- WinForms user interface
+
+User Stories (US) for current MMF:
+* As a SDK-developer or technical writer I want to copy files from local dir to [ftp://]remotedir
+
+Engineering tasks for current US:
+* refactor configuring functionality for console app
+* implement arguments (params) procesing
+
+Todo on current tasks:
++ fix bugs with directory name trimming
++ Refactor code. Remove files and dirs transmitting code to core library. Create ContentManager class (see Terrasoft.FtpLoader).
++ refactor app.config and settings maintaining in code
++ develop arguments processing
++ fix space in path problem (crutch)
+- Add clearing remote contents methods. It takes about 15 min to delete content whit aid of WinSCP
+
+
+Future ideas or user stories:
+Add event firing to LoadDirectoryContent of ContentManager class
+
+Notes:

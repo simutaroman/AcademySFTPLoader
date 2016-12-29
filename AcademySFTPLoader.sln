@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terrasoft.Academy.SFTPLoader.Core", "Terrasoft.Academy.SFTPLoader.Core\Terrasoft.Academy.SFTPLoader.Core.csproj", "{EE7E94F8-46D0-4FD1-B5B9-B8268B347BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Terrasoft.Academy.SFTPConsole", "Terrasoft.Academy.Console\Terrasoft.Academy.SFTPConsole.csproj", "{43221333-AD27-40F1-81FD-2DBBE6B5C7A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BCC66CC0-97A5-4675-B289-4B5C2C6F6017}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Readme.md = Readme.md
+		Readme_Terrasoft.md = Readme_Terrasoft.md
+		Todo.txt = Todo.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE7E94F8-46D0-4FD1-B5B9-B8268B347BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7E94F8-46D0-4FD1-B5B9-B8268B347BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7E94F8-46D0-4FD1-B5B9-B8268B347BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7E94F8-46D0-4FD1-B5B9-B8268B347BD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43221333-AD27-40F1-81FD-2DBBE6B5C7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43221333-AD27-40F1-81FD-2DBBE6B5C7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43221333-AD27-40F1-81FD-2DBBE6B5C7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43221333-AD27-40F1-81FD-2DBBE6B5C7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
